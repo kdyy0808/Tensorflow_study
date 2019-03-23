@@ -1,0 +1,19 @@
+#Glossary of Terms
+
+- Feature : 모델의 input
+- examples : 트레이닝을 위해 상용하는 input /output set
+- Labels : 모델의 output
+- Layer : 뉴럴 네트워크에서 서로 연결된 노드의 집합
+- Model : 뉴럴네트워크의 표현
+- Dense oand Fully Connected(FC) : 한 레이어의 각 노드가 이전레이어의 각 노드와 연결되있는것
+- Weights and biases : 모델의 내부 변수
+- Loss : 원하는 출력과 실제 출력간의 불일치
+- MSE : Mean squared error, Loss function의 중 하나이며  **********
+- Gradient Descent : 점차적으로 Loss Function을 줄이기 위해 조금씩 내부 변수를 변경하는 알고리즘
+- Optimizer : 그라디언트 디센트 알고리즘의 특정 구현입니다. 
+(이 알고리즘에는 많은 알고리즘이 있으며,이 과정에서는 모멘텀과 함께 ADAptive를 나타내는 "Adam"Optimizer 만 사용합니다.이 알고리즘은 모범 사례 최적화 도구로 간주됩니다
+- Learning rate : Gradient descent 중에 Loss를 개선하기 위한 Step size
+- Batch : 뉴를네트워크의 트레이닝 중에 사용된 일련의 Example
+- Epoch : 전체 데이터세트를 한바퀴 도는것
+- Forward pass : 입력으로부터 출력 값을 계산하는것
+- Backward pass(Backpropagation) : 최적 알고리즘에 따라 내부변수 적응을 계산하는것, 출력 레이어에서출발하고 한 레이어씩 뒤로 움직이며 계산하는것
